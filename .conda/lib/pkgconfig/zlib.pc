@@ -1,0 +1,13 @@
+prefix=/workspaces/learn-github/.conda
+exec_prefix=/workspaces/learn-github/.conda
+libdir=/workspaces/learn-github/.conda/lib
+sharedlibdir=/workspaces/learn-github/.conda/lib
+includedir=/workspaces/learn-github/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

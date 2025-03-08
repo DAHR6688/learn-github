@@ -1,0 +1,11 @@
+prefix=/workspaces/learn-github/.conda
+exec_prefix=/workspaces/learn-github/.conda
+libdir=/workspaces/learn-github/.conda/lib
+includedir=/workspaces/learn-github/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
